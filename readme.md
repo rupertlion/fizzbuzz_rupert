@@ -85,7 +85,9 @@ The purpose of this challenge is to create a FizzBuzz app in Javascript programm
 
 #### Answer:
 
-* xxxx
+* Unit Tests are written from a developer's perspective to ensure that a particular method (or a unit) of a class performs a set of specific tasks. This can be thought of as testing the code is fulling the requirements expected by the developer.
+
+* Feature Tests are written from the user's perspective and ensure that the system is functioning as users would expect it to. In effect the feature fest automates what 'real life user' might do when using the application to see if it would fullfill their requirements.
 
 -------
 
@@ -95,7 +97,7 @@ The purpose of this challenge is to create a FizzBuzz app in Javascript programm
 
 #### Answer:
 
-* xxxx
+* When creating a test, the developer sets what the result SHOULD be when the implemenation code is run with the inputs provided. Expectations link what the developer is expecting to the results of running the implementation code.
 
 -------
 
