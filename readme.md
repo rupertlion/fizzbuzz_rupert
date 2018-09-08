@@ -79,6 +79,26 @@ The purpose of this challenge is to create a FizzBuzz app in Javascript programm
 
 -------
 
+### Question 5:
+
+#### In your README to the best of your knowledge please explain the difference between feature and unit test?
+
+#### Answer:
+
+* xxxx
+
+-------
+
+### Question 6:
+
+####  In your README to the best of your knowledge please explain what expectations in the context of testing are?
+
+#### Answer:
+
+* xxxx
+
+-------
+
 ## **Author**
 -------
 * **Rupert Lion**
