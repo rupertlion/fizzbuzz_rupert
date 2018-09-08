@@ -1,5 +1,11 @@
 # **FizzBuzz Weekend Challenge (Wk 2)**
 -------
+
+## Deployed site
+-------
+
+[Rupert's FizzBuzz Site](https://rupertlion.github.io/fizzbuzz_temp_deployment/)
+
 ## Prerequisites
 -------
 Initialised npm (package manager) and utilising: superstatic (for feature-testing), mocha (for unit-testing).
