@@ -69,6 +69,16 @@ The purpose of this challenge is to create a FizzBuzz app in Javascript programm
 
 -------
 
+### Question 4:
+
+#### In your README to the best of your knowledge please explain why we are moving (number % 5 === 0) to the top?
+
+#### Answer:
+
+* Javascript reads from left to right and top to bottom in the code. In the if statement, the code will be read until 'true' is returned and then will stop.
+
+-------
+
 ## **Author**
 -------
 * **Rupert Lion**
