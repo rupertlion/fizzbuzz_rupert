@@ -101,6 +101,59 @@ The purpose of this challenge is to create a FizzBuzz app in Javascript programm
 
 -------
 
+### Question 7:
+
+####  In your README to the best of your knowledge please write a line to line explanation of what is happening in this code?
+
+#### Answer:
+
+```
+<script src="src/js/fizz-buzz.js"></script>
+```
+The fizz-buzz.js implementation code is being connected to the DOM to allow manipulation of the html.
+
+```
+document.addEventListener('DOMContentLoaded', () => {
+```
+The code within the following {} will be executed when the initial HTML document has been completely loaded and parsed, without waiting for stylesheets, images, and subframes to finish loading.
+
+```
+let button = document.getElementById('button')
+```
+Setting the HTML element with Id 'button' to a variable 'button' for the purposes of manipulation in the DOM.
+
+```
+let displayDiv = document.getElementById('display_answer')
+```
+Setting the HTML element with Id 'display_answer' to a variable 'displayDiv' for the purposes of manipulation in the DOM.
+
+```
+button.addEventListener('click', () =>{
+```
+The code within the following {} will be executed when the 'button' object in the DOM is clicked.
+
+```
+let value = document.getElementById('value').value
+```
+Setting the HTML element with Id 'value' to a variable 'value' for the purposes of manipulation in the DOM (as part of the 'click' event listener)
+
+```
+let fizzBuzz = new FizzBuzz
+```
+Creating a new instance of the FizzBuzz javascript class and storing in a new variable called 'fizzbuzz'
+
+```
+let result = fizzBuzz.check(value)
+```
+Taking the value returned by the new instance of the FizzBuzz javascript implementation and storing that result in a new variable called 'result'
+
+```
+displayDiv.innerHTML = result;
+```
+Changes the variable 'displayDiv' that holds the 'display_answer' HTML element to the newly created 'result' variable that holds the result of the FizzBuzz javascript implementation.
+
+-------
+
 ## **Author**
 -------
 * **Rupert Lion**
