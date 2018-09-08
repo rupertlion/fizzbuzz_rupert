@@ -13,7 +13,7 @@ function FizzBuzz()  {
         } else if (isNaN(number)) {
             return 'Give me a number! I want one now!';
         } else {
-            return number
+            return 'Hey come on, be serious, give me a better number!'
         }
     }
 }
