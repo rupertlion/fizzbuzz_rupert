@@ -44,16 +44,29 @@ The purpose of this challenge is to create a FizzBuzz app in Javascript programm
 
 ### Question 2:
 
-#### In your README to the best of your knowledge please explain what the following lines of code do?
+#### In your README to the best of your knowledge please explain why we are placing the code outside the it block?
 
     ```
-    let  fizzBuzz = fs.readFileSync('./src/js/fizz-buzz.js');
-    eval( fizzBuzz + `\nexports.FizzBuzz = FizzBuzz;`)
+    let fizzBuzz = new FizzBuzz
     ```
 
 #### Answer:
 
-    nhgnfhgnhf
+* We want all the tests to run on a new instance of fizzbuzz, rather than keep testing the same one with tests one after the other
+
+-------
+
+### Question 3:
+
+#### xxx?
+
+    ```
+    xxx
+    ```
+
+#### Answer:
+
+* xxx
 
 -------
 
