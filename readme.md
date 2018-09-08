@@ -6,6 +6,8 @@
 
 [Rupert's FizzBuzz Site](https://rupertlion.github.io/fizzbuzz_temp_deployment/)
 
+Pull request: https://github.com/rupertlion/fizzbuzz_rupert/pull/1
+
 ## Prerequisites
 -------
 Initialised npm (package manager) and utilising: superstatic (for feature-testing), mocha (for unit-testing).
