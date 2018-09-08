@@ -58,15 +58,14 @@ The purpose of this challenge is to create a FizzBuzz app in Javascript programm
 
 ### Question 3:
 
-#### xxx?
-
-    ```
-    xxx
-    ```
+#### In your README to the best of your knowledge please explain the difference between using === and == in JS?
 
 #### Answer:
 
-* xxx
+* When using triple equals === in JavaScript, we are testing for strict equality. This means both the type and the value we are comparing have to be the same. e.g. 'hello world' === 'hello world' // true (Both Strings, equal values)
+
+* When using double equals in JavaScript we are testing for loose equality. e.g. 77 == '77'
+// true
 
 -------
 
